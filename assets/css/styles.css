@@ -132,3 +132,59 @@ html {
     font-family: "robotoMono";
     padding: 30px;
 }
+
+.carousel-item {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    width: 100%;
+    background-color: lightblue;
+    position: absolute;
+}
+
+footer .tituloSeccion {
+    color: black;
+    font-family: "robotoMono";
+    text-align: center;
+}
+
+footer .legal {
+    color: black;
+    font-family: "robotoMono";
+    text-align: center;
+}
+
+.redesSociales {
+    display: flex;
+    justify-content: center;
+}
+
+.redesSociales i {
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+}
+
+.subir {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(99, 169, 192);
+    color: white;
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(218, 212, 212);
+}
+
+@media screen and (max-width:1024px) {
+    .subir {
+        display: none;
+    }
+}
