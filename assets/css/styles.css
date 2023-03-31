@@ -28,3 +28,107 @@ html {
     background-color: lightblue;
     box-shadow: 0 0 5px rgb(111, 192, 219);
 }
+
+.nav-link {
+    color: black !important;
+    text-transform: capitalize;
+    font-family: "robotoMono";
+}
+
+.bannerAutentico {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.titulo {
+    text-align: center;
+    font-family: "robotoMono";
+    text-transform: capitalize;
+    text-shadow: 0 0 5px grey;
+    padding: 35px;
+    font-size: 2rem;
+}
+
+.galeria {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 350px);
+    padding: 20px;
+    grid-gap: 15px;
+}
+
+.img {
+    box-shadow: 0 0 10px grey;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img1 {
+    background-image: url(../images/2erDrop\ 2.jpg);
+}
+
+.img2 {
+    background-image: url(../images/ese2.png);
+}
+
+@media only screen and (min-width:480px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1, 350px);
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1, 500px);
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1, 750px);
+    }
+}
+
+@media only screen and (min-width:1550px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1, 850px);
+    }
+}
+
+.rounded {
+    height: 100%;
+}
+
+.dbutton {
+    text-align: center;
+    padding: 40px;
+}
+
+.btn {
+    background-color: lightblue;
+    font-family: "robotoMono";
+    text-transform: uppercase;
+    padding: 15px 60px;
+    box-shadow: 0 0 10px grey;
+}
+
+.btn:hover {
+    background-color: aquamarine;
+}
+
+.jumbotron {
+    background-color: rgba(128, 128, 128, 0.37);
+    box-shadow: 0 0 30px rgba(128, 128, 128, 0.37);
+}
+
+.jumbotron p {
+    font-family: "robotoMono";
+    padding: 30px;
+}
